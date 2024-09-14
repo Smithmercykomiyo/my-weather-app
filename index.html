@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="form-class" id="form-class">
           <input
             type="search"
             placeholder="Enter a city"
             required
+            id="form-class-input"
             class="form-class-input"
           />
           <input type="submit" value="search" class="form-class-button" />
@@ -27,7 +28,7 @@
       </header>
       <main>
         <div class="weather-app-tit">
-          <h1 class="weather-app-city"></h1>
+          <h1 class="weather-app-city" id="city"></h1>
           <p class="weather-app-details">
             <br />
             humidity: <strong></strong>
