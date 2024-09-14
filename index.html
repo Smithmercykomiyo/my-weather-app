@@ -15,19 +15,29 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city" required />
-          <input type="submit" value="search" />
+        <form class="form-class">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="form-class-input"
+          />
+          <input type="submit" value="search" class="form-class-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1></h1>
-          <p>
+        <div class="weather-app-tit">
+          <h1 class="weather-app-city"></h1>
+          <p class="weather-app-details">
             <br />
+            humidity: <strong></strong>
           </p>
         </div>
-        <div>🌤️</div>
+        <div class="weather-app-temperature-container">
+          <div class="weather-app-temperature">
+            <div class="weather-app-icon">🌤️</div>
+          </div>
+        </div>
       </main>
       <footer>
         This project was coded by
