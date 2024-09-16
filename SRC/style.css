@@ -3,11 +3,7 @@ body {
   font-family: "Vollkorn", serif;
 }
 a {
-  color:rgb(199, 139, 11);
-}
-header {
-  border-bottom: 1px solid f9f9f9;
-  padding: 0 0 30px 0;
+  color: rgb(199, 139, 11);
 }
 .weather-app {
   background: white;
@@ -17,18 +13,23 @@ header {
   border-radius: 16px;
   padding: 30px;
 }
+header {
+  border-bottom: 1px solid f9f9f9;
+  padding: 0 0 30px 0;
+}
 .form-class-input {
   background-color: #f9f7fe;
   border: none;
   border-radius: 4px;
   width: 80%;
-  font-size: 14px;
-  padding: 14px 20px;
+  font-size: 16px;
+  padding: 14px 28px;
 }
 .form-class-button {
   background: rgb(199, 139, 11);
   padding: 15px 28px;
   border: none;
+  margin-left: 5px;
   border-radius: 5px;
   font-size: 18px;
   color: white;
@@ -36,44 +37,48 @@ header {
 main {
   padding: 30px 0;
 }
+.weather-app-tit {
+  display: flex;
+  justify-content: space-between;
+}
 .weather-app-city {
-margin: 0;
-font-size: 34px;
-line height: 40px;
+  margin: 0;
+  font-size: 34px;
+  line-height: 40px;
 }
 .weather-app-details {
-font-size: 14px;
-color: rgba(39, 33, 66, 0.4);
-line-height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300px;
 }
-.weather-details-strong {
-color: #f65282;
+.weather-app-details strong {
+  color: #f65282;
 }
 .weather-app-temperature-container {
   display: flex;
-  
 }
 .weather-app-icon {
-  font-size: 44px;
   margin-top: 22px;
+  height: 88px;
+  font-size: 44px;
+  width: 88px;
 }
+
 .weather-app-temperature {
-  font-size: 88px;
   margin-left: 10px;
-  font-weight: bold;
+  font-weight: 88px;
+  font-size: 88px;
 }
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 33px;
   font-size: 28px;
-}
-.weather-app-tit {
-display: flex;
-justify content: space-between;
 }
 
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
-  font-size: 14px;
+  padding: 30px 0 0 0;
+  font-weight: 500;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
 }

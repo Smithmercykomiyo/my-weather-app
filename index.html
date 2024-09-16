@@ -29,37 +29,41 @@
       </header>
       <main>
         <div class="weather-app-tit">
-          <h1 class="weather-app-city" id="city"></h1>
-          <p class="weather-app-details">
-            <span id="description"></span>
-            <br />
-            humidity: <strong id="humidity"></strong>, wind:
-            <strong id="wind-speed"></strong>
-          </p>
-        </div>
-        <div class="weather-app-temperature-container">
-          <div class="weather-app-temperature" id="temperature">
-            <div class="weather-app-icon">🌤️</div>
+          <div>
+            <h1 class="weather-app-city" id="city"></h1>
+            <p class="weather-app-details">
+              <span id="time"></span>,
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
           </div>
         </div>
+        <div class="weather-app-temperature-container">
+          <div class="weather-app-icon"></div>
+          <div id="icon"></div>
+          <div class="weather-app-temperature" id="temperature">14</div>
+          <div class="weather-app-unit">&degC</div>
+        </div>
+        <footer>
+          This project was coded by
+          <a href="https://github.com/Smithmercykomiyo" target="_blank"
+            >smithmercy</a
+          >
+          and is open-sourced
+          <a
+            href="https://github.com/Smithmercykomiyo/my-weather-app"
+            target="_blank"
+          >
+            on Github</a
+          >
+          and hosted
+          <a href="https://smith-weatherapp.netlify.app" target="_blank"
+            >on Netlify</a
+          >
+        </footer>
       </main>
-      <footer>
-        This project was coded by
-        <a href="https://github.com/Smithmercykomiyo" target="_blank"
-          >smithmercy</a
-        >
-        and is open-sourced
-        <a
-          href="https://github.com/Smithmercykomiyo/my-weather-app"
-          target="_blank"
-        >
-          on Github</a
-        >
-        and hosted
-        <a href="https://smith-weatherapp.netlify.app" target="_blank"
-          >on Netlify</a
-        >
-      </footer>
     </div>
     <script src="src/index.js"></script>
   </body>
