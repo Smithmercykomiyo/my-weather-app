@@ -56,21 +56,35 @@ main {
 }
 .weather-app-temperature-container {
   display: flex;
+  position: relative;
 }
 .weather-app-icon {
-  margin-top: 22px;
+  display: flex;
+  top: -10px;
+  margin-left: auto;
+  margin-bottom: -38px;
+  margin-top: -100px;
   height: 88px;
   font-size: 44px;
   width: 88px;
 }
 
 .weather-app-temperature {
-  margin-left: 10px;
+  display: flex;
+  margin-left: -18px;
+  margin-bottom: -40px;
+  margin-top: -120px;
+  justify-content: left;
   font-weight: 88px;
   font-size: 88px;
 }
 .weather-app-unit {
-  margin-top: 33px;
+  display: flex;
+  top: 0;
+  margin-left: -10px;
+  margin-bottom: -42px;
+  justify-content: left;
+  margin-top: -88px;
   font-size: 28px;
 }
 
