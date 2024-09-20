@@ -87,11 +87,12 @@ main {
   margin-top: -88px;
   font-size: 28px;
 }
-.forecast {
+.weather-forecast {
+  display: block;
   justify-content: center;
   display: flex;
-  display: block;
 }
+
 .weather-forecast-date {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
