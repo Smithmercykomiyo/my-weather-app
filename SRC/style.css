@@ -81,10 +81,10 @@ main {
 .weather-app-unit {
   display: flex;
   top: 0;
-  margin-left: -10px;
-  margin-bottom: -42px;
+  margin-left: -0px;
+  margin-bottom: -36px;
   justify-content: left;
-  margin-top: -88px;
+  margin-top: -92px;
   font-size: 28px;
 }
 .weather-forecast {
@@ -95,8 +95,8 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  color: rgba(7, 5, 17, 0.963);
+  font-size: 18px;
   line-height: 20px;
   margin-bottom: 10px;
 }
